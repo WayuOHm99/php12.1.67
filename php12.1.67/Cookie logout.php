@@ -18,7 +18,7 @@ if (isset($_COOKIE['username'])) {
 <body>
 
     <h1>สวีดัดสวัสดี, <?php echo $username; ?>!</h1>
-    <button type="submit" ><a href="cookie.php">LOGOUT</a>
+    <button type="submit" ><a href="Cookie login.php">LOGOUT</a>
 
 </body>
 </html>
