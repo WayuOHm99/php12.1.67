@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     setcookie('username', $username, time() + (2 * 30), "/");
 
-    header('Location: cookie-f.php');
+    header('Location: Cookie logout.php');
     exit;
 }
 ?>
